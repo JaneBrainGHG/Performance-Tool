@@ -51,7 +51,7 @@ if !errorlevel! equ 0 exit /b
 
 
 echo.
-echo             Exm is not running as Admin!
+echo             Tool is not running as Admin!
 echo     Some optimizations won't work. Continue anyway?
 echo.
 choice /c:"CQ" /n /m "%BS%               [C] Continue  [Q] Quit" & if !errorlevel! equ 2 exit /b
@@ -90,7 +90,6 @@ echo.                                                                           
 echo.
 echo.                                            Press a NUMBER on your keyboard followed by ENTER to select an option, Please Read All warnings, don't just blindly press buttons without reading.
 echo.
-echo.                                                    You can find the tutorial, more information about the utility and much more in the EXM Tweaks Discord Server (discord.gg/exm)
 echo.   
 echo.                                          %b%"════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════"%w%
 echo.
